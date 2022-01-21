@@ -113,6 +113,7 @@
             align-items: center;
         }
         &__statistics{
+            margin-top: 0;
             display: flex;
             justify-content: space-around;
     
@@ -120,7 +121,7 @@
     }
     .degree{
         &__img{
-            margin-bottom: 10px;
+            width:50px ;
         }
         &__wrapper{
           
@@ -128,8 +129,8 @@
             flex-direction: column;
             align-items: center;
                     .celsius{
-                margin-bottom: 10px;
-                font-size: 24px;
+                margin-bottom:0;
+                font-size: 16px;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
             }
@@ -144,11 +145,11 @@
     
         }
         &__text{
-                font-size: 20px;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 16px;
+            
         }
         &__img{
-            margin-bottom: 10px;
+            width: 50px;
         }
     
     }
