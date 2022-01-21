@@ -10,7 +10,7 @@ import EachCity from "../components/EachCity";
 function Wheather(){
     let Key ='31b693b81fc44337b87140759221901';
     let [auto, setAuto] = useState();
-    let [value, setValue] = useState('Paris');
+    let [value, setValue] = useState('Andijan');
     let [data, setData] = useState();
     let ref = useRef();
     useEffect(()=>{
