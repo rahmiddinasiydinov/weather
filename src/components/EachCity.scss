@@ -1,0 +1,81 @@
+.city{
+    &__header{
+        display: flex;
+        align-items: flex-end;
+    }
+    &__name{
+        margin: 20px 0 -2px 0 ;
+        font-size: 36px;
+        color: rgba($color: #fff, $alpha: .7);
+        text-shadow: 2px 2px  5px #FF008E;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    &__currentTime{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba($color: #fff, $alpha: .7);
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    &__condition{
+        display: flex;
+        align-items: center;
+        &-name{
+            margin-left: 20px;
+            font-size: 24px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+    }
+    &__degree{
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__statistics{
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+}
+.degree{
+    &__img{
+        margin-bottom: 10px;
+    }
+    &__wrapper{
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+                .celsius{
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+    }
+}
+.humidity{
+    &__wrapper{
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    &__text{
+            font-size: 24px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    &__img{
+        margin-bottom: 10px;
+    }
+
+}
+
+.notFound{
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
