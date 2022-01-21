@@ -55,7 +55,7 @@ function Wheather(){
                 <button className="search"><img src={loupe} alt="" /></button>
             </form>
             <div className="current">
-                <h2 className="current__city">{`${auto?auto.location.name:''}.${auto?auto.location.country:""}`}</h2>
+                <h2 className="current__city">{`${auto?auto.location.name:''} / ${auto?auto.location.country:""}`}</h2>
                 <div className="current__condition">
                     <img className="current__condition-img" src={auto?auto.current.condition.icon:''} alt="icon" />
                     <span className="current__condition-text">{auto?auto.current.condition.text:''}</span>

@@ -21,4 +21,12 @@
   width: 95%;
   padding:0 20px;
   margin: auto;
+  box-sizing: border-box;
+}
+@media screen and (max-width:500px) {
+  .container{
+    width: 95%;
+    padding:0 10px;
+    margin: auto;
+  }
 }
