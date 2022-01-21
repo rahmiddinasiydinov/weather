@@ -13,7 +13,7 @@
         font-family: 'Times New Roman', Times, serif;
         margin-left: 20px;
         font-size: 48px;
-
+        
     }
     &__info{
         display: flex;
@@ -49,7 +49,7 @@
         border-bottom-right-radius: 0;
         border-top-right-radius: 0;
         padding-left: 15px;
-
+        
     }
     .search{
         @extend .type;
@@ -64,7 +64,7 @@
         background-color: #D3DEDC;
         font-size: 24px;
         
-
+        
     }
     .current{
         &__city{
@@ -81,7 +81,7 @@
                 font-weight: 700;
                 color:#F6F2D4 ;
             }
-       
+            
         }
         
     }
@@ -90,7 +90,7 @@
 
 @media screen and (max-width:500px) {
     .header{
-      padding-top: 20px;
+        padding-top: 20px;
         &__wrapper{
             display: flex;
             flex-direction: column;
@@ -101,7 +101,7 @@
             margin: 0;
             margin-left: 20px;
             font-size: 48px;
-    
+            
         }
         &__info{
             display: flex;
@@ -113,16 +113,16 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
-             height: 40px;
-             border-radius: 25px;
+            height: 40px;
+            border-radius: 25px;
         }
-      
+        
         .city{
             width: 200px;
             font-size: 18px;
             max-width: 100%;
             height: 40px;
-           
+            
         }
         .search{
             height: 40px;
@@ -131,25 +131,29 @@
             align-items: center;
             padding-left: 10px;
         }
-
+        
         .current{
             margin-top: 20px;
             &__city{
-                color: #F6F2D4;
+                color: rgba($color: #fff, $alpha: .5);
                 margin: 0;
-                font-size: 24px;
+                font-size: 16px;
             }
             &__condition{
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 &-text{
-                    font-size: 20px;
+                    font-size: 16px;
                     font-family: 'Times New Roman', Times, serif;
                     font-weight: 700;
-                    color:#F6F2D4 ;
+                    color: rgba($color: #fff, $alpha: .5);
+                    
                 }
-           
+                &-img{
+                    width: 40px;
+                }
+                
             }
             
         }
